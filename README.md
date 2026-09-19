@@ -1,2 +1,3 @@
-# A1
-This is the first assignment for my Systems class.
+# Assignment 1: Setting up!
+
+This is your starter code repo for Assignment 1. Please see the corresponding description on Canvas.
