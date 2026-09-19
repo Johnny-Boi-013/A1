@@ -1,1 +1,29 @@
 # Simply copy and paste the output from your terminal here!
+
+pwd
+/home/jonathanjiao07/cs3650/A1
+[jonathanjiao07@login-students A1]$ ls
+README.md  hello.c  output.txt
+[jonathanjiao07@login-students A1]$ mkdir command_demo
+[jonathanjiao07@login-students A1]$ cd command_demo
+[jonathanjiao07@login-students command_demo]$ touch students.txt
+[jonathanjiao07@login-students command_demo]$ echo "Alice Computer Science" > students.txt
+[jonathanjiao07@login-students command_demo]$ echo "Bob Engineering" > students.txt
+[jonathanjiao07@login-students command_demo]$ echo "Charlie Computer Science" > students.txt
+[jonathanjiao07@login-students command_demo]$ cat students.txt
+Charlie Computer Science
+[jonathanjiao07@login-students command_demo]$ echo "Alice Computer Science" >> students.txt
+[jonathanjiao07@login-students command_demo]$ echo "Bob Engineering" >> students.txt
+[jonathanjiao07@login-students command_demo]$ echo "Charlie Computer Science" >> students.txt
+[jonathanjiao07@login-students command_demo]$ cat students.txt
+Charlie Computer Science
+Alice Computer Science
+Bob Engineering
+Charlie Computer Science
+[jonathanjiao07@login-students command_demo]$ cp students.txt students_backup.txt
+[jonathanjiao07@login-students command_demo]$ mv students_backup.txt backup.txt
+[jonathanjiao07@login-students command_demo]$ grep "Computer" students.txt
+Charlie Computer Science
+Alice Computer Science
+Charlie Computer Science
+
